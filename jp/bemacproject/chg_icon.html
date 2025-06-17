@@ -1,0 +1,238 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=x-sjis">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>MACなアイコンへの変更方法</title>
+</head>
+
+<body background="../../image/welcome_bg.gif">
+
+<h2 align="center"><a name="top"><i>Windowsのいろいろなアイコンの変更方法</i></a><img
+src="../../image/ver_up.gif" align="top" hspace="10" width="31"
+height="12"></h2>
+
+<p align="center"><font color="#FF0000"><strong><marquee
+bgcolor="#00FFFF" width="50%">WindowsをMACなアイコンで飾る方法</marquee></strong></font></p>
+
+<p align="center"><font color="#FF0000"><strong><img
+src="../../image/trash_e.gif" width="32" height="32"></strong></font><a
+href="#micom_beginer">ごみ箱やマイコンピュータのアイコンの変更(超初級編)</a><img
+src="../../image/trash_f.gif" width="32" height="32"></p>
+
+<p align="center"><font color="#FF0000"><strong><img
+src="../../image/trash_e2.gif" width="32" height="32"></strong></font><a
+href="#micom_regedit">ごみ箱のアイコンの変更(中級編)</a><img
+src="../../image/trash_f2.gif" width="32" height="32"><img
+src="../../image/ver_up.gif" align="top" width="31" height="12"></p>
+
+<p align="center"><font color="#FF0000"><strong><img
+src="../../image/fld_c.gif" width="32" height="32"></strong></font><a
+href="#icon_reg">Windows95のいろいろなアイコンの場所</a><img
+src="../../image/fld_o.gif" width="32" height="32"><img
+src="../../image/new.gif" align="top" width="31" height="12"></p>
+
+<p align="center"><font size="2"><i>Last Update:Sep-24-1998 </i></font></p>
+
+<hr>
+
+<p><a name="micom_beginer"><font size="4"><strong><u><img
+src="../../image/botanb1.gif" hspace="5" width="16" height="16"></u></strong><strong>ごみ箱やマイコンピュータのアイコンの変更</strong></font><font
+color="#FF0000" size="4"><strong>(超初級編)</strong></font></a></p>
+
+<blockquote>
+    <p>Windows95のごみ箱やマイコンピュータのアイコンは普通の方法では変更できません。<br>
+    しかし、<strong>Windows95をＭＡＣなアイコン達で飾る</strong>ためには変更しなくてはなりません。</p>
+    <p>一番簡単な方法は<strong>「Microsoft Plus!」を使う</strong>ことです。<br>
+    画面のプロパティーの「Plus!」のタグで簡単に変更できます。</p>
+    <p>また、専用のツール(たとえば<strong>&quot;95裏ワザ&quot;</strong>など)も多数公開されています。<br>
+    <a href="http://www.vector.co.jp">(株)ベクターのHome
+    Page</a>にはいろいろと登録されていますので、試してみてもいいでしょう。</p>
+</blockquote>
+
+<blockquote>
+    <p align="center"><a href="#top"><font size="2">トップへ戻る</font></a></p>
+</blockquote>
+
+<hr>
+
+<p><a name="micom_regedit"><font size="4"><strong><u><img
+src="../../image/botanb1.gif" hspace="5" width="16" height="16"></u></strong><strong>ごみ箱のアイコンの変更</strong></font><font
+color="#FF0000" size="4"><strong>(中級編)</strong></font></a><font
+color="#FF0000" size="4"><strong><img
+src="../../image/ver_up.gif" align="top" width="31" height="12"></strong></font></p>
+
+<blockquote>
+    <p>「Microsoft Plus!」や専用のツールを使わないで、自力で行う場合は<b>レジストリエディタ</b>を使います。<br>
+    但し、レジストリを書き換えるのは大変危険なので<font
+    color="#FF0000"><strong>自分の責任において</strong></font>実施して下さい。<br>
+    (最悪の場合、<strong>起動しなくなったり</strong>、<strong>システムが飛んでしまう</strong>事もあります。)</p>
+</blockquote>
+
+<p>　</p>
+
+<p align="left"><font size="4"><strong><img
+src="../../image/botanc3.gif" hspace="5" width="16" height="16">まずはバックアップ！<img
+src="../../image/botanc3.gif" hspace="5" width="16" height="16"></strong></font></p>
+
+<p align="left"><font color="#FF0000"><em><strong>********************</strong></em></font><font
+color="#FF0000" size="4"><strong>[重要]**</strong></font><font
+color="#FF0000"><em><strong>*******************</strong></em></font></p>
+
+<p align="left"><font color="#FF0000"><strong>バックアップをとっておかないと後で元に戻せなくなります。<br>
+必ずレジストリのバックアップをとって下さい。</strong></font></p>
+
+<p align="left"><font color="#FF0000"><em><strong>************************************************</strong></em></font></p>
+
+<ol>
+    <li><strong>レジストリエディタ</strong>を起動します。<br>
+        <br>
+        &quot;<strong>スタートメニュー</strong>&quot;→&quot;<strong>ファイル名を指定して実行</strong>&quot;で&quot;<strong>REGEDIT.EXE</strong>&quot;と入力して&quot;<strong>OK</strong>&quot;を押します。<br>
+        </li>
+    <li><strong>レジストリ</strong>の内容を<strong>バックアップ</strong>します。<br>
+        <br>
+        &quot;<strong>レジストリ</strong>&quot;→&quot;<strong>レジストリ
+        ファイルの書き出し</strong>&quot;で<strong>書き出す先のファイル名</strong>を入力して&quot;<strong>OK</strong>&quot;を押します。<br>
+        この時、<strong>書き出し範囲は&quot;すべて&quot;にします</strong>。</li>
+</ol>
+
+<p><strong>注：</strong>レジストリを元に戻すときは&quot;<strong>レジストリ</strong>&quot;→&quot;<strong>レジストリ
+ファイルの取り込み</strong>&quot;で上で書き出したファイルを選択します。</p>
+
+<p><font size="4"><strong><img src="../../image/botanc3.gif"
+hspace="5" width="16" height="16">レジストリの変更<img
+src="../../image/botanc3.gif" hspace="5" width="16" height="16"></strong></font></p>
+
+<p>以下､例として<strong>&quot;ごみ箱&quot;のアイコンを変える方法</strong>を示します。</p>
+
+<ol>
+    <li><strong>レジストリエディタを起動します。</strong><br>
+        <br>
+        &quot;<strong>スタートメニュー</strong>&quot;→&quot;<strong>ファイル名を指定して実行</strong>&quot;で&quot;<strong>REGEDIT.EXE</strong>&quot;と入力して&quot;<strong>OK</strong>&quot;を押します。<br>
+        </li>
+    <li><strong>&quot;ごみ箱&quot;のレジストリを探します。</strong><br>
+        <br>
+        <strong>&quot;ごみ箱&quot;のアイコン</strong>は左窓のレジストリの以下の場所に指定されています。<blockquote>
+            <p><font color="#008080"><strong>HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon</strong></font></p>
+        </blockquote>
+    </li>
+    <li><strong>&quot;ごみ箱&quot;のアイコンの値を変更します</strong><br>
+        <br>
+        ここにある<strong>(標準),empty,full</strong>の各値を変更します。(元の値はメモしておくと元に戻すときに便利です。)<br>
+        右窓の&quot;<strong>名前</strong>&quot;のところで選択して、&quot;<strong>編集</strong>&quot;→&quot;<strong>変更</strong>&quot;で値が変えられます。ここの値を、<blockquote>
+            <p><font color="#008080"><strong>&quot;アイコンを含むファイル名(Full
+            Path)&quot;,&quot;リソースナンバー&quot;</strong></font></p>
+        </blockquote>
+        <p>という形で記述します。<br>
+        例えば、私のページからダウンロードしたごみ箱アイコンを&quot;C:\WINDOWS&quot;にコピーしたならば、以下のように変更します。</p>
+        <blockquote>
+            <p><font color="#008080"><strong>(標準)：&quot;C:\WINDOWS\Trash_e.ico,0&quot;<br>
+            empty：&quot;C:\WINDOWS\Trash_e.ico,0&quot;<br>
+            full：&quot;C:\WINDOWS\Trash_f.ico,0&quot;</strong></font></p>
+        </blockquote>
+        <p>これで、ごみ箱のアイコンが変わったはずです。<br>
+        レジストリエディタを終了して、何かいらないファイルをごみ箱に捨ててみて下さい。</p>
+    </li>
+    <li><strong>&quot;ごみ箱&quot;の名前を変更します。<br>
+        <br>
+        </strong>細かい話ですが、Windows95では&quot;<strong>ごみ箱</strong>&quot;になっています。MACでは&quot;<strong>ゴミ箱</strong>&quot;です。<br>
+        これは、前述の<strong>&quot;ごみ箱&quot;のレジストリ</strong><blockquote>
+            <p><font color="#008080"><strong>HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E]</strong></font></p>
+        </blockquote>
+        <p>を変更します。<br>
+        右窓の&quot;<strong>名前</strong>&quot;のところで<strong>(標準)</strong>を選択して、&quot;<strong>編集</strong>&quot;→&quot;<strong>変更</strong>&quot;で、値を&quot;<strong>ゴミ箱</strong>&quot;にすれば変更できます。</p>
+    </li>
+</ol>
+
+<p align="center"><a href="#top"><font size="2">トップへ戻る</font></a></p>
+
+<hr>
+
+<p><a name="icon_reg"><font size="4"><strong><u><img
+src="../../image/botanb1.gif" hspace="5" width="16" height="16"></u></strong><strong>Windows95のいろいろなアイコンの場所</strong></font></a><font
+color="#FF0000" size="4"><strong><img src="../../image/new.gif"
+align="top" width="31" height="12"></strong></font></p>
+
+<blockquote>
+    <p>マイコンピュータやフォルダ等のいろいろなアイコンも<strong>ごみ箱と同じ方法で</strong>変更できます。<br>
+    以下に<strong>レジストリ内の場所</strong>を示します。</p>
+</blockquote>
+
+<blockquote>
+    <p align="left"><font color="#FF0000"><em><strong>********************</strong></em></font><font
+    color="#FF0000" size="4"><strong>[重要]**</strong></font><font
+    color="#FF0000"><em><strong>*******************</strong></em></font></p>
+</blockquote>
+
+<blockquote>
+    <p align="left"><font color="#FF0000"><strong>レジストリを操作する前には必ずのバックアップをとって下さい。</strong></font></p>
+</blockquote>
+
+<blockquote>
+    <p align="left"><font color="#FF0000"><em><strong>************************************************</strong></em></font></p>
+</blockquote>
+
+<p><font size="4"><strong><img src="../../image/botanc3.gif"
+hspace="5" width="16" height="16"></strong></font><strong>マイコンピュータ</strong></p>
+
+<blockquote>
+    <p><font color="#008080"><strong>HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}</strong></font></p>
+</blockquote>
+
+<p><font size="4"><strong><img src="../../image/botanc3.gif"
+hspace="5" width="16" height="16"></strong></font><strong>プリンタ</strong></p>
+
+<blockquote>
+    <p><font color="#008080"><strong>HKEY_CLASSES_ROOT\CLSID\{2227A280-3AEA-1069-A2DE-08002B30309D}</strong></font></p>
+</blockquote>
+
+<p><font size="4"><strong><img src="../../image/botanc3.gif"
+hspace="5" width="16" height="16"></strong></font><strong>コントロールパネル</strong></p>
+
+<blockquote>
+    <p><font color="#008080"><strong>HKEY_CLASSES_ROOT\CLSID\{21EC2020-3AEA-1069-A2DD-08002B30309D}</strong></font></p>
+</blockquote>
+
+<p><font size="4"><strong><img src="../../image/botanc3.gif"
+hspace="5" width="16" height="16"></strong></font><strong>ハードディスクやフォルダ等々</strong><font
+color="#FF0000" size="4"><strong><img src="../../image/new.gif"
+align="top" width="31" height="12"></strong></font></p>
+
+<blockquote>
+    <p><font color="#008080"><strong>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\explorer\Shell
+    Icons</strong></font></p>
+    <blockquote>
+        <p><font color="#008080" size="4"><strong>3</strong></font><font
+        color="#008080"><strong>：エクスプローラのフォルダアイコン(閉じた状態)</strong></font>(例：&quot;C:\Windows\Fld_c.ico,0&quot;)<br>
+        <font color="#008080" size="4"><strong>4</strong></font><font
+        color="#008080"><strong>：エクスプローラのフォルダアイコン(開いた状態)</strong></font>(例：&quot;C:\Windows\Fld_o.ico,0&quot;)<br>
+        <font color="#008080" size="4"><strong>6</strong></font><font
+        color="#008080"><strong>：マイコンピュータのフロッピーディスクのアイコン</strong></font>(例：&quot;C:\Windows\Fdd.ico,0&quot;)<br>
+        <font color="#008080" size="4"><strong>8</strong></font><font
+        color="#008080"><strong>：マイコンピュータのハードディスクのアイコン</strong></font>(例：&quot;C:\Windows\Hdd.ico,0&quot;)<br>
+        <font color="#008080" size="4"><strong>9</strong></font><font
+        color="#008080"><strong>：ネットワークコンピュータのアイコン</strong></font>(例：&quot;C:\Windows\Nwkpc.ico,0&quot;)<br>
+        <font color="#008080" size="4"><strong>11</strong></font><font
+        color="#008080"><strong>：マイコンピュータのCD-ROMのアイコン</strong></font>(例：&quot;C:\Windows\Cd-rom.ico,0&quot;)</p>
+    </blockquote>
+    <p align="center"><a href="#top"><font size="2">トップへ戻る</font></a></p>
+</blockquote>
+
+<hr>
+
+<blockquote>
+    <div align="center"><center><address>
+        <font size="3"><em><strong><b>MACになりたい</b></strong></em><em><strong>!</strong></em></font><font
+        size="2">はリンクフリー、ご意見、ご感想は</font><a
+        href="mailto:KGG01125@niftyserve.or.jp"><font size="3">山崎雅夫(KGG01125@niftyserve.or.jp)</font></a><font
+        size="2">まで</font> 
+    </address>
+    </center></div>
+</blockquote>
+
+<p align="center"><a href="bemacprj.html"><img
+src="../../image/mac.gif" border="0" width="32" height="32"><br>
+<font size="2">[ＭＡＣになりたい！計画]へ戻る </font></a></p>
+</body>
+</html>
